@@ -1,0 +1,1 @@
+self.addEventListener('install', event => event.waitUntil(caches.open('kk-pwa-cache').then(cache => cache.addAll(['/', '/index.html']))));

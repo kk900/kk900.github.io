@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Lore</title>
+  <link rel="shortcut icon" href="favicon-16.png" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="384x384" href="favicon-384.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#121212">
+  <style>*,::after,::before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:transparent}@-ms-viewport{width:device-width}aside,main,nav{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1rem;font-weight:400;line-height:1.6;background-color:#1e1e1e;color:#d4d4d4;text-align:left}[tabindex="-1"]:focus{outline:0!important}h1,h2,h3,h4,h5,h6{margin-top:-1rem;margin-bottom:.5rem;padding-top:1rem;text-align:center}h2{margin-top:-1.5rem;padding-top:1.5rem}p,ul{margin-top:0;margin-bottom:1rem}ul ul{margin-bottom:0}strong{font-weight:bolder}a,a:hover{text-decoration:none}a{background-color:transparent;-webkit-text-decoration-skip:objects;color:#3b8eea}a:hover{color:#3176c2}button{margin:0;overflow:visible;-webkit-appearance:button;border-radius:0;font-family:inherit;font-size:inherit;line-height:inherit;text-transform:none}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}button::-moz-focus-inner{padding:0;border-style:none}.container{display:flex}.toggle{display:none}aside{width:20rem;min-width:20rem;height:100vh;overflow-x:hidden;overflow-y:auto;position:sticky;top:0;background:#252526}.navigation{padding:1.5rem 2rem;font-weight:700;line-height:1.8}.navigation ul{padding-left:0;list-style:none}.navigation ul ul{padding-left:1rem;padding-bottom:1rem}.navigation a{display:block}main{width:100%}.content{max-width:50rem;margin:auto;padding:1.5rem}@media (max-width:64rem){body{overflow-x:hidden}.container{margin-left:-20rem;transition:transform .5s;will-change:transform}.container.open{transform:translate3d(20rem,0,0)}.toggle{display:block;height:0;width:0;position:sticky;top:0;left:0}.toggle button{width:2.5rem;padding:.5rem;z-index:10;background:#1e1e1e;border:0;border-bottom-right-radius:.5rem;color:#d4d4d4;font-size:1.5rem;line-height:1}.toggle button:focus{outline:0}}</style>
+  <script>
+    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
+  </script>
+</head>
+<body>
+  <div id="container" class="container">
+    <aside>
+      <nav id="navigation" class="navigation">
+        <ul>
+          <li><a href="#%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D0%B8%D1%8F">Понятия</a>
+            <ul>
+              <li><a href="#%D0%B2%D0%B8%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5">Видение</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <nav class="toggle">
+      <button id="toggle"> ☰ </button>
+    </nav>
+    <main>
+      <div class="content">
+        <h2 id="понятия">Понятия</h2>
+        <h3 id="видение">Видение</h3>
+        <p>Темнота («темнота дня») — это лучшее время для того, чтобы видеть.</p>
+        <p>Сначала мы учимся обо всем думать, а потом приучаем глаза смотреть на то, о чем думаем. Человек смотрит на себя и думает, что он очень важен. И начинает чувствовать себя важным. Но потом, научившись видеть, он осознает, что не может больше думать о том, на что смотрит. А когда он перестает думать о том, на что смотрит, все становится неважным.</p>
+        <p>Возможно, ты так никогда и не научишься видеть. В этом случае тебе придется всю жизнь быть воином. Когда мы видим, нет ничего известного, ничего, что осталось бы в том виде, к какому мы привыкли, когда не видели. Сводя все к пониманию, ты ограничиваешь свои возможности как человеческого существа.</p>
+      </div>
+    </main>
+  </div>
+  <script>(e=>{const t=(t,n)=>e.getElementById(t).addEventListener("click",n),n=e.getElementById("container").classList;t("toggle",()=>n.toggle("open")),t("navigation",()=>n.remove("open"))})(document);</script>
+</body>
